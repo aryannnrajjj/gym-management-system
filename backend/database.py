@@ -8,7 +8,7 @@ load_dotenv()
 # MongoDB se connection banao
 #MONGO_URL = os.getenv("MONGO_URL")
 #DATABASE_NAME = os.getenv("DATABASE_NAME")
-MONGO_URL = "mongodb://localhost:27017"
+MONGO_URL = os.getenv("MONGO_URL")
 DATABASE_NAME = "gym_db"
 
 # Client banao — ye hamara MongoDB ka "door" hai
